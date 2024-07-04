@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffe6f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.invitation-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 400px;
+  text-align: center;
+  border: 2px solid #ff80ab;
+}
+
+.invitation-container h1 {
+  font-family: "Pacifico", cursive;
+  color: #d32f2f;
+  font-size: 36px;
+}
+
+.invitation-container p {
+  color: #555;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.message {
+  margin-top: 20px;
+}
+
+.message p {
+  font-size: 20px;
+  color: #d32f2f;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.message img {
+  max-width: 100%;
+  border-radius: 10px;
+  border: 2px solid #ff80ab;
+}
